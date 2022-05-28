@@ -1,0 +1,30 @@
+/* Tüm sayfalarda body kısmında aynı düzeni kullanacağım, değiştirmek istediğim yerlerde ayrıca ezeceğim. */
+body {
+    background-color: rgba(255, 228, 196, 0.438); 
+    text-align: center;
+    font-size:28px;
+}
+
+.intro {
+    color: rgba(66, 66, 66, 0.856);
+}
+#b1 {
+    border-style: double;
+    border-bottom: 0.5rem solid;
+    border-color: purple;
+    border-radius: 100px;
+}
+
+.oyunListesi {
+    list-style-type:upper-roman;
+    list-style-position: inside;
+    font-size: 32px;
+}
+.OyunParagraf {
+    color: saddlebrown;
+    font-size:26px;
+    width:fit-content;
+    border-style: solid;
+    border-color:darkkhaki;
+    border-radius: 100px;
+}
